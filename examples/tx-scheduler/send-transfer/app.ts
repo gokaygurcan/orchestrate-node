@@ -9,7 +9,7 @@ export const start = async () => {
     const txScheduler = new TransactionClient('http://localhost:8041')
 
     const res = await txScheduler.transfer({
-      chain: 'MyChain',
+      chain: 'besu',
       params: {
         from: '0x6009608a02a7a15fd6689d6dad560c44e9ab61ff',
         to: '0x4a435585d27cd7e6dae2c714be8e414b5fd7d257',

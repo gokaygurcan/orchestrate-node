@@ -9,15 +9,13 @@ export const start = async () => {
 
     // Deploy a new SimpleToken contract
     // const envelopeId = await producer.sendTransaction({
-    //   chain: 'quorum',
+    //   chain: 'besu',
     //   contractName: 'SimpleToken',
-    //   methodSignature: 'transfer(address,uint256)',
-    //   args: ['0x7e654d251da770a068413677967f6d3ea2fea9e5', 5000],
+    //   methodSignature: 'constructor()',
     //   from: '0x7e654d251da770a068413677967f6d3ea2fea9e4', // Default Orchestrate account in development mode
-    //   to: '0xA967b03011D139C1603D6B9F122e04F2aEC78666',
-    //   protocol: ProtocolType.QuorumTessera,
-    //   privateFor: ['QfeDAys9MPDs2XHExtc84jKGHxZg/aj52DTh0vtA3Xc='],
-    //   privateFrom: 'BULeR8JyUWhiuuCMU/HLA0Q5pzkYT+cHII3ZKBey3Bo='
+    //   protocol: ProtocolType.BesuOrion,
+    //   privateFor: ['A1aVtMxLCUHmBVHXoZzzBgPbW/wj5axDpW9X8l91SGo='],
+    //   privateFrom: 'Ko2bVqD+nNlNYL5EE7y3IdOnviftjiizpjRt+HTuFBs='
     // })
 
     const envelopeId = await producer.sendTransaction({

@@ -10,7 +10,7 @@ export const start = async () => {
 
     const res = await txScheduler.deployContract(
       {
-        chain: 'MyChain',
+        chain: 'besu',
         labels: {},
         params: {
           from: '0x6009608a02a7a15fd6689d6dad560c44e9ab61ff',

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2.4.0 (2020-07-15)
+
+### 🆕 Features
+
+- Integration of the new Orchestrate service **tx-Scheduler** along with a new wrapper class to handle transactions.
+
 ## 2.3.0 (2020-07-08)
 
 ### 🆕 Features

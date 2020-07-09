@@ -10,7 +10,7 @@ export const start = async () => {
     const txScheduler = new TransactionClient('http://localhost:8041')
 
     // For development usage only, never expose your private key!
-    const privateKey = '0x56202652fdffd802b7252a456dbd8f3ecc0352bbde76c23b40afe8aebd714e2e'
+    const privateKey = '8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63'
     const wallet = new Wallet(privateKey)
 
     console.log('Generated address:', wallet.address)
@@ -24,7 +24,7 @@ export const start = async () => {
     })
 
     const res = await txScheduler.sendRaw({
-      chain: 'MyChain',
+      chain: 'besu',
       params: {
         raw: signedTransaction
       }
